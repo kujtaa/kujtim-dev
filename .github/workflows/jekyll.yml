@@ -16,4 +16,4 @@ jobs:
     - name: Build the site kujtim.dev
       run: |
           cd /var/www/kujtim.dev
-          sudo git pull
+          git pull
