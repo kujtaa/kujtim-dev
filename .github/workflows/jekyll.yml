@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the site kujtim.dev
-      run: go test ./...
+      run: go test /var/www/kujtim.dev/
